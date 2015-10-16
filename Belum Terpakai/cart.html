@@ -1,0 +1,803 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+		<!-- Basic page needs
+		============================================ -->	
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Shopping-cart - Raboda</title>
+		<meta name="description" content="">
+		<!-- Mobile specific metas
+		============================================ -->		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon
+		============================================ -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<!-- Place favicon.ico in the root directory -->
+		<!-- google font
+		============================================ -->
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900,300' rel='stylesheet' type='text/css'>
+		<!-- ALL CSS FILES HERE -->
+		<!-- css for bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- css for font-awesome-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- css for owl.carousel-->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- rs-plugin CSS -->			
+		<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+		<link rel="stylesheet" type="text/css" href="lib/rs-plugin/css/settings.css" media="screen" />
+		<!-- css for animate css-->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- css for mobile menu-->  <link rel="stylesheet" href="css/mobile_menu.min.css">
+		<!-- css for normalize-->
+        <link rel="stylesheet" href="css/normalize.css">
+		<!-- css for main css-->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- css for style css-->
+        <link rel="stylesheet" href="style.css">
+		<!-- css for responsive css-->
+        <link rel="stylesheet" href="css/responsive.css">
+		
+		<!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<!-- Preloader -->
+		<div id="preloader">
+		</div>
+		<header>
+			<!-- HEADER TOP AREA START -->
+			<div class="header_area_top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="top-menu pull-left">
+								<ul class="top-nav-menu">
+									<li><a href="#">My Account</a></li>
+									<li><a href="#">My Wishlist</a></li>
+									<li><a href="#">Cart</a></li>
+									<li><a href="#">Login</a></li>
+								</ul>
+							</div>
+							<div class="top-message pull-right">Default welcome message</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  HEADER TOP AREA END -->
+			<!-- HEADER INNER AREA START -->
+			<div class="header-inner-area">
+				<div class="container">
+					<div class="header-inner">
+						<div class="row">
+							<div class="col-xs-12 col-md-4 col-sm-4">
+								<div class="header-search">
+									<form action="#" method="get" >
+										<div class="search_area">
+											<input type="text" placeholder="Search product...">
+											<button id="wsearchsubmit" type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-4 col-sm-4">
+								<div class="logo">
+									<a href="index.html"><img alt="" src="img/logo.png"></a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-4 col-sm-4">
+								<div class="widget_shopping_cart_content">
+									<div class="cart-toggler">
+										<a href="#">
+											<span class="mini-cart-link">
+												<i class="fa fa-shopping-cart"></i>
+											</span>
+											<span class="cart-quantity">2</span>
+										</a>
+									</div>
+									<div class="mini_cart_content">
+										<div class="mini_cart_inner">
+											<ul class="cart_list product_list_widget ">
+												<li>
+													<a href="#" class="product-image">
+														<img alt="1" class="attachment-shop_thumbnail" src="img/s-cart/s_cart_1.jpg"> <span class="quantity">1</span>
+													</a>
+													<div class="product-details">
+														<a title="Remove this item" class="remove" href="#"><i class="fa fa-times-circle"></i></a>
+														<a href="#" class="product-name">Vestibulum dictum magna</a>
+														<span class="quantity"><span class="amount">£50.00</span></span>
+													</div>
+												</li>	
+												
+												<li>
+													<a href="#" class="product-image">
+														<img alt="1" class="attachment-shop_thumbnail" src="img/s-cart/s_cart_2.jpg"> <span class="quantity">1</span>
+													</a>
+													<div class="product-details">
+														<a title="Remove this item" class="remove" href="#"><i class="fa fa-times-circle"></i></a>
+														<a href="#" class="product-name">Donec sodales mauris in</a>
+														<span class="quantity"><span class="amount">£50.00</span></span>
+													</div>
+												</li>	
+											</ul><!-- end product list -->
+											<p class="total">Subtotal: <span class="amount">£100.00</span></p>
+											<p class="buttons">
+											 <a class="button checkout wc-forward" href="#">Checkout</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  HEADER INNER AREA END -->
+		
+			<!--MAIN MENU AREA START -->
+			<div class="main_menu_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-12 col-sm-12">
+							<div class="main_menu">
+								<nav>
+									<ul id="nav">
+										<li class="active" ><a href="index.html">home</a>
+											<div class="main-dropdown">
+												<ul>
+													<li><a href="index-2.html">home 2</a></li>
+													<li><a href="index-3.html">home 3</a></li>
+													<li><a href="index-4.html">home 4</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="blog.html">blog</a>
+											<div class="main-dropdown main-magemenu">
+												<span>
+													<a class="magemenu_title" href="#"> Blog Pages </a> 
+													<a href="blog-archives.html">Archive</a>
+													<a href="blog-category.html">Category</a>
+													<a href="blog-tages.html">Tags</a>
+													<a href="blog-author.html">Blog Author</a>
+												</span>
+												<span>
+													<a class="magemenu_title" href="#">Post Formats</a>
+													<a href="single-blog-image.html">Image format</a>
+													<a href="single-blog-Video.html">Video format</a>
+													<a href="single-blog-audio.html">Audio format</a>
+													<a href="single-blog-gallery.html">Gallery format</a>
+												</span>
+											</div>
+										</li>
+										<li><a href="shop.html">shop</a>
+											<div class="main-dropdown main-magemenu">
+												<span>
+													<a class="magemenu_title" href="#">Shop Pages</a>
+													<a href="product-category.html">Category</a>
+													<a href="my-account.html">My Account</a>
+													<a href="wishlist.html">Wishlist</a>
+													<a href="cart.html">Cart</a>
+													<a href="checkout.html">Checkout</a>
+												</span>
+												<span>
+													<a class="magemenu_title" href="#">Product Types</a>
+													<a href="single-product.html">single Product</a>
+													<a href="#">Grouped Product</a>
+													<a href="#">Variable Product</a>
+													<a href="#">External Product</a>
+												</span>
+											</div>
+										</li>
+										<li><a href="#">pages </a>
+											<div class="main-dropdown">
+												<ul>
+													<li><a href="about.html">About Us page</a></li>
+													<li><a href="cart.html">Shoping cart page</a></li>
+													<li><a href="checkout.html">checkout page</a></li>
+													<li><a href="wishlist.html">wishlist page</a></li>
+													<li><a href="my-account.html">my account page</a></li>
+													<li><a href="single-product.html">single product page</a></li>
+													<li><a href="shop-list.html">shop list page</a></li>
+													<li><a href="contact.html">Contact us page</a></li>
+													<li><a href="404.html">404 Error page</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="contact.html">contact us</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--MAIN MENU AREA END -->
+			<!-- mobile-menu-area start -->
+			<div class="mobile-menu-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mobile-menu">
+								<nav id="dropdown">
+									<ul>
+										<li><a href="index.html">Home</a>
+											<ul>
+												<li><a href="index-2.html">Home 2</a></li>
+												<li><a href="index-3.html">Home 3</a></li>
+												<li><a href="index-4.html">Home 4</a></li>
+											</ul>
+										</li>
+										<li><a href="blog">blog</a>
+											<ul>
+												<li><a href="#">Blog Pages</a>
+													<ul>
+														<li><a href="blog-archives.html">Archive</a></li>
+														<li><a href="blog-category.html">Category</a></li>
+														<li><a href="blog-tages.html">Tags </a></li>
+														<li><a href="blog-author.html">Blog Author</a></li>
+													</ul>
+												</li>
+												<li><a href="#">Post Formats</a>
+													<ul>
+														<li><a href="single-blog-image.html">Image format</a></li>
+														<li><a href="single-blog-Video.html">Video format</a></li>
+														<li><a href="single-blog-audio.html">Audio format</a></li>
+														<li><a href="single-blog-gallery.html">Gallery format</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="shop.html">Shop</a>
+											<ul>
+												<li><a href="#">Shop Pages</a>
+													<ul>
+														<li><a href="shop-list.html">List View</a></li>
+														<li><a href="product-category.html">Category</a></li>
+														<li><a href="my-account.html">My Account</a></li>
+														<li><a href="wishlist.html">Wishlist</a></li>
+														<li><a href="cart.html">Cart </a></li>
+														<li><a href="checkout.html">Checkout </a></li>
+													</ul>
+												</li>
+												<li><a href="#">Product Types</a>
+													<ul>
+														<li><a href="single-product.html">Simple Product</a></li>
+														<li><a href="#">Variables Product</a></li>
+														<li><a href="#">Grouped Product</a></li>
+														<li><a href="#">Downloadable</a></li>
+														<li><a href="#">Virtual Product</a></li>
+														<li><a href="#">External Product</a></li>
+													</ul>
+												</li>											
+											</ul>
+										</li>
+										<li><a href="#">Pages</a>
+											<ul>
+												<li><a href="shop.html">Shop Grid View</a></li>
+												<li><a href="shop-list.html">Shop List View </a></li>
+												<li><a href="product-category.html">Shop Category</a></li>
+												<li><a href="my-account.html">My Account</a></li>
+												<li><a href="wishlist.html">Wishlist</a></li>
+												<li><a href="cart.html">Cart</a></li>
+												<li><a href="checkout.html">Checkout </a></li>
+												<li><a href="single-product.html">single Product</a></li>
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="404.html">404 Error</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</nav>
+							</div>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- mobile-menu-area end -->
+		</header>	
+		<!-- wishlist SECTION START -->
+		<div class="blog_section single_blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">	
+						<div class="breadcrumbs">
+							<a href="#">Home</a> Cart
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="blog_left_sidebar">
+							<aside class="blog_left_categories">
+								<h3 class="blog-widget-title"><span>Categories</span></h3>
+								<ul>
+									<li><a href="#">Creative</a> (2)</li>
+									<li><a href="#">Fashion</a> (1)</li>
+									<li><a href="#">Image</a> (1)</li>
+									<li><a href="#">Photography</a> (1)
+									</li>
+									<li><a href="#">Travel</a> (5)</li>
+									<li><a href="#">Videos</a> (2)</li>
+									<li><a href="#">WordPress</a> (4)</li>
+								</ul> 
+							</aside>
+							<aside class="blog_left_categories">
+								<div class="b_lft_tab">
+								  <!-- Nav tabs -->
+								  <ul class="nav nav-tabs" role="tablist">
+								    <li role="presentation" class="active"><a href="#recent" aria-controls="recent" role="tab" data-toggle="tab">Recent</a></li>
+								    <li role="presentation"><a href="#popular" aria-controls="popular" role="tab" data-toggle="tab">Popular</a></li>
+								    <li role="presentation"><a href="#comments" aria-controls="comments" role="tab" data-toggle="tab">Comments</a></li>
+								  </ul>
+								  <!-- Tab panes -->
+								  <div class="tab-content">
+								    <div role="tabpanel" class="tab-pane active" id="recent"> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<a href="#"><img src="img/cat-tab/1.png" alt=""></a>
+															</div>
+															<div class="post-info">
+																<h3 class="post-title">
+																  <a href="#">Single post in Gallery format Lorem ipsum dolor sit amet</a>
+																</h3>
+																<div class="post-date"> February 5, 2015</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<a href="#"><img src="img/cat-tab/2.jpg" alt=""></a>
+															</div>
+															<div class="post-info">
+																<h3 class="post-title">
+																  <a href="#">Post in Video format Lorem ipsum dolor sit amet</a>
+																</h3>
+																<div class="post-date"> February 9, 2015</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<a href="#"><img src="img/cat-tab/3.jpg" alt=""></a>
+															</div>
+															<div class="post-info">
+																<h3 class="post-title">
+																  <a href="#">Blog image post layout Lorem ipsum dolor </a>
+																</h3>
+																<div class="post-date"> February3, 2015</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+								     </div>
+								     <div role="tabpanel" class="tab-pane" id="popular">
+								    	<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<a href="#"><img src="img/cat-tab/4.jpg" alt=""></a>
+															</div>
+															<div class="post-info">
+																<h3 class="post-title">
+																  <a href="#">post in Gallery Lorem ipsum dolor sit amet</a>
+																</h3>
+																<div class="post-date"> February 5, 2015</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<a href="#"><img src="img/cat-tab/5.jpg" alt=""></a>
+															</div>
+															<div class="post-info">
+																<h3 class="post-title">
+																  <a href="#"> Video format Post Lorem ipsum dolor sit amet </a>
+																</h3>
+																<div class="post-date"> February 9, 2015</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<a href="#"><img src="img/cat-tab/2.jpg" alt=""></a>
+															</div>
+															<div class="post-info">
+																<h3 class="post-title">
+																  <a href="#">Blog image post layout Lorem ipsum dolor sit amet</a>
+																</h3>
+																<div class="post-date"> February3, 2015</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+								    </div>
+								    <div role="tabpanel" class="tab-pane" id="comments">
+								    	<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<img src="img/cat-tab/6.jpg" alt="">
+															</div>
+															<div class="post-info">
+																<p>demo says:</p> 
+																<a href="#">Quisque semper nunc vitae...</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<img src="img/cat-tab/7.jpg" alt="">
+															</div>
+															<div class="post-info">
+																<p>demo says:</p> 
+																<a href="#">Quisque semper nunc vitae...</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div> 
+											<div class="recent-posts">
+												<ul>
+													<li>
+														<div class="post-wrapper">
+															<div class="post-thumb"> 
+																<img src="img/cat-tab/8.jpg" alt="">
+															</div>
+															<div class="post-info">
+																<p>demo says:</p> 
+																<a href="#">Quisque semper nunc vitae...</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+								    </div>
+								  </div>
+								</div>
+							</aside>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-12">
+						<div class="blog_right_area myaccount_right">
+							<article  class="single-blog-right">
+								<header class="entry-header">
+									<h1 class="entry-title"> Cart </h1> 
+								</header>
+							</article>
+							<div class="wishlist-content cart-arae ">
+							<form action="#">				
+								<div class="table-content table-responsive">
+									<table>
+										<thead>
+											<tr>
+												<th class="product-thumbnail">Image</th>
+												<th class="product-name">Product</th>
+												<th class="product-price">Price</th>
+												<th class="product-quantity">Quantity</th>
+												<th class="product-subtotal">Total</th>
+												<th class="product-remove">Remove</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="product-thumbnail"><a href="#"><img src="img/cart.jpg" alt="" /></a></td>
+												<td class="product-name"><a href="#">Vestibulum suscipit</a></td>
+												<td class="product-price"><span class="amount">£165.00</span></td>
+												<td class="product-quantity"><input type="number" value="1" /></td>
+												<td class="product-subtotal">£165.00</td>
+												<td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
+											</tr>
+											<tr>
+												<td class="product-thumbnail"><a href="#"><img src="img/cart2.jpg" alt="" /></a></td>
+												<td class="product-name"><a href="#">Vestibulum dictum magna</a></td>
+												<td class="product-price"><span class="amount">£50.00</span></td>
+												<td class="product-quantity"><input type="number" value="1" /></td>
+												<td class="product-subtotal">£50.00</td>
+												<td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="row">
+									<div class="col-md-8 col-sm-7">
+										<div class="buttons-cart">
+											<input class="pull-right" type="submit" value="Update Cart" />
+											<a class="pull-left" href="#">Continue Shopping</a>
+										</div>
+										<div class="coupon">
+											<h3>Coupon</h3>
+											<p>Enter your coupon code if you have one.</p>
+											<input type="text" placeholder="Coupon code" />
+											<input type="submit" value="Apply Coupon" />
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-5">		
+										<div class="cart_totals ">
+											<h2>Cart Totals</h2>
+											<table>
+												<tbody>
+													<tr class="cart-subtotal">
+														<th>Subtotal</th>
+														<td>
+															<span class="amount">£90.00</span>
+														</td>
+													</tr>
+													<tr class="shipping">
+														<th>Shipping</th>
+														<td>
+															<ul id="shipping_method">
+																<li>
+																	<input class="shipping_method" checked="checked" type="radio" value="flat_rate">
+																	<label>
+																	Flat Rate:
+																	<span class="amount">£7.00</span>
+																	</label>
+																</li>
+																<li>
+																 <input class="shipping_method" type="radio" value="free_shipping">
+																 <label>Free Shipping</label>
+																</li>
+															</ul>
+															<p>
+																<a class="shipping-calculator-button" href="#">Calculate Shipping</a>
+															</p>
+														</td>
+													</tr>
+													<tr class="order-total">
+														<th>Total</th>
+														<td>
+															<strong>
+																<span class="amount">£90.00</span>
+															</strong>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<div class="wc-proceed-to-checkout">
+												<a class="checkout-button" href="">Proceed to Checkout</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!-- wishlist SECTION END -->
+		<!--FOLLOW AREA START -->
+		<div class="h_follow_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-4">
+						<div class="twit_area">
+							<p class="rtw_main">A new different, unique theme for your online store is here, Check it out!</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-8">
+						<div class="social_area">
+							<h3 class="socialtitle">Follow Us</h3>
+							
+							<ul class="social-icons">
+								<li>
+									<a href="#" data-toggle="tooltip" data-placement="top" title="Facebook" class="green-tooltip facebook social-icon "><i class="fa fa-facebook"></i></a>	
+								
+								</li>
+								<li>
+									<a href="#" data-toggle="tooltip" data-placement="top" title="Twitter" class="green-tooltip twitter social-icon "><i class="fa fa-twitter"></i></a>	
+								
+								</li>
+								<li>
+									<a href="#" data-toggle="tooltip" data-placement="top" title="Tumblr" class="green-tooltip tumblr social-icon "><i class="fa fa-tumblr"></i></a>	
+								
+								</li>
+								<li>
+									<a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus" class="green-tooltip google-plus social-icon "><i class="fa fa-google-plus"></i></a>	
+								
+								</li>
+								<li>
+									<a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble" class="green-tooltip dribbble social-icon "><i class="fa fa-dribbble"></i></a>	
+								
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--FOLLOW AREA END -->
+		<footer>
+			<!--FOOTER AREA START -->
+			<div class="h_footer_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="f_about">
+								<img src="img/logo-footer.png" alt="logo-footer" />
+								<div class="about_info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.Ut enim ad minim <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										<br>  
+									<a href="#">Read more</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="clien-say">
+								<h3>WHAT CLIEN SAY ?</h3>
+								<div class="all_clients">
+									<div class="client_info">
+										<div class="c_thumb">
+											<img src="img/clients/3.jpg" alt="" />
+										</div>
+										<div class="c_info">
+											<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoret purus sed mattis placerat. Ut at ante molestie.”</p>
+											<cite class="author"><span>-Kathy Young-</span></cite>
+										</div>
+									</div>
+									<div class="client_info">
+										<div class="c_thumb">
+											<img src="img/clients/2.png" alt="" />
+										</div>
+										<div class="c_info">
+											<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoret purus sed mattis placerat. Ut at ante molestie.”</p>
+											<cite class="author"><span>-Kathy Young-</span></cite>
+										</div>
+									</div>
+									<div class="client_info">
+										<div class="c_thumb">
+											<img src="img/clients/1.png" alt="" />
+										</div>
+										<div class="c_info">
+											<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoret purus sed mattis placerat. Ut at ante molestie.”</p>
+											<cite class="author"><span>-Kathy Young-</span></cite>
+										</div>
+									</div>
+								</div>
+							</div> 
+						</div>
+						<div class="clearfix"></div>
+						<div class="f_adderss">
+							<div class="col-lg-3 col-md-3 col-sm-6">
+								<div class="all_title widget_contact_us">
+									<h3 class="widget-title">Contact Us</h3>
+									<ul>
+										<li><i class="fa fa-map-marker"> </i>Addresss: 123 Pall Mall, London England</li>
+										<li><i class="fa fa-envelope"> </i>Email: info@roadthemes.com</li>
+										<li><i class="fa fa-phone"> </i>Phone: (+880) 19222 62289</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-6">
+								<div class="all_title widget_contact_us">
+									<h3 class="widget-title">Customer care</h3>
+									<div class="menu-customer-care-container">
+										<ul class="nav_menu">
+											<li><a href="#">Contact us</a></li>
+											<li><a href="#">Sitemap</a></li>
+											<li><a href="#">Term &amp; Conditions</a></li>
+											<li><a href="#">Gift Vouchers</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-6">
+								<div class="all_title widget_contact_us">
+									<h3 class="widget-title">Infomation</h3>
+									<div class="menu-customer-care-container">
+										<ul class="nav_menu">
+											<li><a href="#">About Our Shop</a></li>
+											<li><a href="#">Secure Shopping</a></li>
+											<li><a href="#">Privacy Policy</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-6">
+								<div class="all_title widget_contact_us">
+									<h3 class="widget-title">Our services</h3>
+									<div class="menu-customer-care-container">
+										<ul class="nav_menu">
+											<li><a href="#">Secure Shopping</a></li>
+											<li><a href="#">International Shipping</a></li>
+											<li><a href="#">Affiliates</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--FOOTER AREA END -->
+			<!--FOOTER BOTTOM AREA START -->
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="bottom-paymen"> 
+								<img alt="maescard" src="img/payment_card/maescard.png">
+								<img alt="visa" src="img/payment_card/visa.png">
+								<img alt="paypal" src="img/payment_card/paypal.png">
+								<img alt="maestro" src="img/payment_card/maestro.png">
+							</div>
+							<div class="widget bottom_menu">
+								<div class="menu-bottom-menu-container">
+									<ul class="nav_menu" id="menu-bottom-menu">
+										<li><a href="#">Site Map</a></li>
+										<li><a href="#">Search Terms</a></li>
+										<li><a href="#">Advanced Search</a></li>
+										<li><a href="#">Orders and Returns</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="copyright-info"> Copyright &copy; 2015 <a  href="http://bootexperts.com" target="_blank">bootexperts</a> All Rights Reserved</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--FOOTER BOTTOM AREA END -->
+		</footer>
+		
+		<!-- ALL JS FILES HERE -->
+		<!-- vendor js -->
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+		<!-- price slider js -->
+        <script src="js/price_slider.js"></script>
+		<!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+		<!-- jquery.scrollUp js -->
+        <script src="js/jquery.scrollUp.min.js"></script>	
+		<!-- mobilemenu js -->   <script src="js/jquery.mobilemenu.js"></script>
+		<!--RS Lib js -->		
+		<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+		<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<!-- plugins js -->	
+        <script src="js/plugins.js"></script>
+		<!-- main js -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

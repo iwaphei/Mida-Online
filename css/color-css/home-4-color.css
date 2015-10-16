@@ -1,0 +1,65 @@
+/*for only color*/
+.main_menu #nav li.active a, .main_menu #nav li .main-dropdown a:hover, .main-dropdown.main-magemenu span a h3:hover,.main_menu #nav li:hover a,.widget_shopping_cart_content .mini_cart_content ul.cart_list li .product-details .remove:hover,.price,.mail_area > input[type="submit"],.clien-say h3,.about_info a,.f_adderss .widget_contact_us ul li i,.footer-bottom .copyright-info a, .footer-bottom ul li a:hover,.post-wrapper .post-info .post-title a:hover, .entry-comment a:hover,.f_adderss .widget_contact_us ul li a:hover,.mean-container .mean-nav ul li a:hover {
+  color: #363636;
+}  
+.main-dropdown.main-magemenu span a.magemenu_title:hover {
+  color: #363636 !important;
+}
+/*for background color*/
+.cart-toggler .cart-quantity,.widget_shopping_cart_content .mini_cart_content ul.cart_list li .product-image .quantity,.widget_shopping_cart_content .mini_cart_content .buttons a,.slider-area .tparrows.preview1:hover::after,.tp-bullets.preview1 .bullet:hover, .tp-bullets.preview1 .bullet.selected,.p_wrapper:hover i,.p_content .owl-controls i:hover, .home2_seller .owl-controls i:hover, .best_seller .owl-controls i:hover, .all_brands .owl-controls i:hover, .all_blogs .owl-controls i:hover, .all_clients .owl-controls i:hover,.h-product-wrapper .wish_src_icon a:hover,.h_product_image .onsale,.mail_area > input[type="submit"]:hover,.post-wrapper .moretag:hover span,.h_follow_area,#scrollUp,.mean-container .mean-bar {
+  background:#363636!important
+}
+.main_menu #nav li .main-dropdown a {
+  color: #909295;
+}
+.p_wrapper:hover i {
+  border-color: #363636;
+}
+.p_content .owl-controls i:hover, .home2_seller .owl-controls i:hover, .best_seller .owl-controls i:hover, .all_brands .owl-controls i:hover, .all_blogs .owl-controls i:hover, .all_clients .owl-controls i:hover,.f_adderss .widget_contact_us ul li i {
+  border: 1px solid #363636;
+}
+/* style for tooltip */
+.green-tooltip + .tooltip > .tooltip-inner {background-color: #363636;color:#fff;padding:5px 10px; border-radius:0;}
+.green-tooltip + .tooltip.top > .tooltip-arrow { border-top-color:#363636; }
+.star-rating span::before {
+  color: #444;
+}
+.widget_shopping_cart_content .mini_cart_content .buttons a:hover {
+  background: #2f2f2f none repeat scroll 0 0 !important;
+}
+/* home 4 normal color css*/
+.top-menu ul li a:hover,.social_area ul.social-icons li a:hover,.f_adderss .widget_contact_us ul li a:hover,.clien-say > h3,.copyright-info > a,.about_info a,#menu-bottom-menu a:hover{
+	color: #fff!important;
+}
+.product_info .info .name > a:hover {
+  color: #363636 !important;
+}
+.home-4 .h_follow_area {
+  background: #e5e5e5 none repeat scroll 0 0 !important;
+  color: #444;
+}
+.home-4 .socialtitle,.social_area ul.social-icons li a {
+  color: #444;
+}
+.h_footer_area,.footer-bottom {
+  background: #363636 none repeat scroll 0 0;
+}
+.f_adderss .widget_contact_us ul li i {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.f_adderss .widget_contact_us ul li a {
+  color: #7d7d7d;
+}
+.widget-title,.h_footer_area, .footer-bottom {
+  border-color: #464646!important;
+}
+#scrollUp {
+  background: #909295  none repeat scroll 0 0 !important;
+}
+.cart-toggler > a:hover {
+  color: #363636;
+}
+
+
+
